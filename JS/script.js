@@ -24,3 +24,9 @@ let btnAbrir = document.querySelector(".abrir-lateral");
 btnAbrir.onclick = () => {
     lateral.classList.add("active");
 }
+
+
+let btnFechar = document.querySelector(".fechar-lateral");
+btnFechar.onclick = () => {
+    lateral.classList.remove("active");
+}
